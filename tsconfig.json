@@ -26,5 +26,8 @@
       "@controllers/*": ["./src/controllers/*"],
       "@config/*": ["./src/config/*"],
     }
-  }
+  },
+  "include": [
+    "src/**/*"
+  ]
 }
