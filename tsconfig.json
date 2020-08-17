@@ -9,6 +9,10 @@
     "outDir": "./dist",
     "rootDir": "./src",
     "removeComments": true,
+    "types": [
+      "nodes",
+      "jest"
+    ],
     "typeRoots": [
       "./node_modules/@types",
       "./src/@types"
@@ -21,10 +25,18 @@
     "forceConsistentCasingInFileNames": true,
     "baseUrl": ".",
     "paths": {
-      "@models/*": ["./src/models/*"],
-      "@view/*": ["./src/view/*"],
-      "@controllers/*": ["./src/controllers/*"],
-      "@config/*": ["./src/config/*"],
+      "@models/*": [
+        "./src/models/*"
+      ],
+      "@views/*": [
+        "./src/views/*"
+      ],
+      "@controllers/*": [
+        "./src/controllers/*"
+      ],
+      "@config/*": [
+        "./src/config/*"
+      ]
     }
   },
   "include": [

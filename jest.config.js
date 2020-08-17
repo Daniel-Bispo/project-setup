@@ -3,7 +3,10 @@ const { compilerOptions } = require('./tsconfig.json');
 
 module.exports = {
   clearMocks: true,
-  moduleNameMapper: pathsToModuleNameMapper(compilerOptions.paths, { prefix: '<rootdir>' }),
+  moduleNameMapper: pathsToModuleNameMapper(compilerOptions.paths, { prefix: '<rootDir>' }),
   preset: 'ts-jest',
   testEnvironment: 'node',
+  testMatch: [
+    '**/*.spec.ts',
+  ],
 };
