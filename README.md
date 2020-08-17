@@ -12,7 +12,7 @@ This repo aims to set up the structure of all my own projects. It is base on htt
 ## Usage
 
 ```node
-git clone http://github.com/daniel-bispo/project-setup
+git clone http://github.com/Daniel-Bispo/project-setup
 
 yarn # installs all dependencies
 
